@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="키 - 단위(cm)"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:background="#7edfcd"
+        />
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="몸무게 - 단위(kg)"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:background="#7edfcd"
+        />
+
+    <Button
+        android:id="@+id/resBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="비만도 계산"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과 : "
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>
